@@ -1,13 +1,13 @@
 {% set name = "array-to-latex" %}
-{% set version = "0.36" %}
+{% set version = "0.83" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://github.com/josephcslater/array_to_latex/archive/{{ version }}.tar.gz
-  sha256: b95645d126421fdd898d8c354e22db5e4eccf39aba53f268d05b9f7d905aff8e
+  url: https://github.com/josephcslater/array_to_latex/archive/v{{ version }}.tar.gz
+  sha256: 6cb2e7e377b7ae02ca258991aba2133aa127b4d17745610a674dc3407fe23878
 
 build:
   noarch: python
